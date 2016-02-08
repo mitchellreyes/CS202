@@ -1,0 +1,397 @@
+Script started on Wed 01 Apr 2015 12:37:44 AM PDT
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project8mitchellreyes@ubuntu:~/Desktop/cs202/project8$ make
+make: Nothing to be done for `all'.
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project8mitchellreyes@ubuntu:~/Desktop/cs202/project8$ ./r[Kproject8
+How many players want to play?(2-8): 8
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 5
+
+[Bob Smith]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+[Nate Starlin]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+[Jordan Marshmellow]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+[Mitch Reyes]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+[Kenneth Laverty]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+[Cameron Harris]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+[Daniel Leonardini]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+[Josh Lee]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 1
+
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 5
+
+[Bob Smith]
+	diamond king Bob Smith
+	spade three Bob Smith
+	diamond seven Bob Smith
+	club seven Bob Smith
+	spade ten Bob Smith
+Bet: 0
+[Nate Starlin]
+	heart six Nate Starlin
+	heart jack Nate Starlin
+	club four Nate Starlin
+	club eight Nate Starlin
+	heart two Nate Starlin
+Bet: 0
+[Jordan Marshmellow]
+	spade king Jordan Marshmellow
+	diamond jack Jordan Marshmellow
+	club king Jordan Marshmellow
+	diamond six Jordan Marshmellow
+	spade jack Jordan Marshmellow
+Bet: 0
+[Mitch Reyes]
+	club nine Mitch Reyes
+	diamond eight Mitch Reyes
+	diamond nine Mitch Reyes
+	diamond four Mitch Reyes
+	diamond queen Mitch Reyes
+Bet: 0
+[Kenneth Laverty]
+	spade eight Kenneth Laverty
+	heart queen Kenneth Laverty
+	diamond two Kenneth Laverty
+	spade six Kenneth Laverty
+	heart ace Kenneth Laverty
+Bet: 0
+[Cameron Harris]
+	diamond ten Cameron Harris
+	heart nine Cameron Harris
+	diamond three Cameron Harris
+	spade four Cameron Harris
+	club three Cameron Harris
+Bet: 0
+[Daniel Leonardini]
+	diamond ace Daniel Leonardini
+	spade nine Daniel Leonardini
+	heart king Daniel Leonardini
+	spade five Daniel Leonardini
+	heart eight Daniel Leonardini
+Bet: 0
+[Josh Lee]
+	diamond five Josh Lee
+	club jack Josh Lee
+	club queen Josh Lee
+	spade two Josh Lee
+	heart four Josh Lee
+Bet: 0
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 2
+
++++++++++++++++++++++++++++
+Unshuffled Deck
++++++++++++++++++++++++++++
+heart two unshuffled
+heart three unshuffled
+heart four unshuffled
+heart five unshuffled
+heart six unshuffled
+heart seven unshuffled
+heart eight unshuffled
+heart nine unshuffled
+heart ten unshuffled
+heart jack unshuffled
+heart queen unshuffled
+heart king unshuffled
+heart ace unshuffled
+club two unshuffled
+club three unshuffled
+club four unshuffled
+club five unshuffled
+club six unshuffled
+club seven unshuffled
+club eight unshuffled
+club nine unshuffled
+club ten unshuffled
+club jack unshuffled
+club queen unshuffled
+club king unshuffled
+club ace unshuffled
+diamond two unshuffled
+diamond three unshuffled
+diamond four unshuffled
+diamond five unshuffled
+diamond six unshuffled
+diamond seven unshuffled
+diamond eight unshuffled
+diamond nine unshuffled
+diamond ten unshuffled
+diamond jack unshuffled
+diamond queen unshuffled
+diamond king unshuffled
+diamond ace unshuffled
+spade two unshuffled
+spade three unshuffled
+spade four unshuffled
+spade five unshuffled
+spade six unshuffled
+spade seven unshuffled
+spade eight unshuffled
+spade nine unshuffled
+spade ten unshuffled
+spade jack unshuffled
+spade queen unshuffled
+spade king unshuffled
+spade ace unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 3
+
++++++++++++++++++++++++++++
+Shuffled Deck
++++++++++++++++++++++++++++
+diamond king shuffled
+heart six shuffled
+spade king shuffled
+club nine shuffled
+spade eight shuffled
+diamond ten shuffled
+diamond ace shuffled
+diamond five shuffled
+spade three shuffled
+heart jack shuffled
+diamond jack shuffled
+diamond eight shuffled
+heart queen shuffled
+heart nine shuffled
+spade nine shuffled
+club jack shuffled
+diamond seven shuffled
+club four shuffled
+club king shuffled
+diamond nine shuffled
+diamond two shuffled
+diamond three shuffled
+heart king shuffled
+club queen shuffled
+club seven shuffled
+club eight shuffled
+diamond six shuffled
+diamond four shuffled
+spade six shuffled
+spade four shuffled
+spade five shuffled
+spade two shuffled
+spade ten shuffled
+heart two shuffled
+spade jack shuffled
+diamond queen shuffled
+heart ace shuffled
+club three shuffled
+heart eight shuffled
+heart four shuffled
+club five shuffled
+spade ace shuffled
+heart seven shuffled
+spade seven shuffled
+heart three shuffled
+spade queen shuffled
+club ace shuffled
+heart ten shuffled
+club ten shuffled
+club two shuffled
+club six shuffled
+heart five shuffled
+
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 4
+
++++++++++++++++++++++++++++
+Stock Deck
++++++++++++++++++++++++++++
+
+[discard]club five shuffled
+
+[stock]spade ace shuffled
+[stock]heart seven shuffled
+[stock]spade seven shuffled
+[stock]heart three shuffled
+[stock]spade queen shuffled
+[stock]club ace shuffled
+[stock]heart ten shuffled
+[stock]club ten shuffled
+[stock]club two shuffled
+[stock]club six shuffled
+[stock]heart five shuffled
+
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 6
+
+[Testing '<' overloaded operator]
+It's true that: spade nine unshuffled < heart ten unshuffled
+
+[Testing '>' overloaded operator]
+It's false that: spade nine unshuffled > heart ten unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 6
+
+[Testing '<' overloaded operator]
+It's true that: club two unshuffled < heart eight unshuffled
+
+[Testing '>' overloaded operator]
+It's false that: club two unshuffled > heart eight unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 6
+
+[Testing '<' overloaded operator]
+It's false that: diamond king unshuffled < club ace unshuffled
+
+[Testing '>' overloaded operator]
+It's true that: diamond king unshuffled > club ace unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 6
+
+[Testing '<' overloaded operator]
+It's false that: club four unshuffled < club two unshuffled
+
+[Testing '>' overloaded operator]
+It's true that: club four unshuffled > club two unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 6
+
+[Testing '<' overloaded operator]
+The two cards are equal in rank
+It's false that: spade two unshuffled < spade two unshuffled
+
+[Testing '>' overloaded operator]
+The two cards are equal in rank
+It's false that: spade two unshuffled > spade two unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 7
+
+Thanks.
+
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project8mitchellreyes@ubuntu:~/Desktop/cs202/project8$ exit
+Script done on Wed 01 Apr 2015 12:38:36 AM PDT

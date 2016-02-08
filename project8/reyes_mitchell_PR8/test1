@@ -1,0 +1,336 @@
+Script started on Wed 01 Apr 2015 12:36:46 AM PDT
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project8mitchellreyes@ubuntu:~/Desktop/cs202/project8$ make
+g++ -c playerclass.cpp
+g++ -o project8 main.cpp playerclass.o
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project8mitchellreyes@ubuntu:~/Desktop/cs202/project8$ ./project8
+How many players want to play?(2-8): 3
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 5
+
+[Bob Smith]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+[Nate Starlin]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+[Jordan Marshmellow]
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+	suit rank location
+Bet: 0
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 1
+
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 5
+
+[Bob Smith]
+	diamond two Bob Smith
+	club queen Bob Smith
+	club two Bob Smith
+	diamond three Bob Smith
+	heart seven Bob Smith
+Bet: 0
+[Nate Starlin]
+	heart queen Nate Starlin
+	heart king Nate Starlin
+	club five Nate Starlin
+	club nine Nate Starlin
+	heart nine Nate Starlin
+Bet: 0
+[Jordan Marshmellow]
+	heart six Jordan Marshmellow
+	heart three Jordan Marshmellow
+	spade seven Jordan Marshmellow
+	spade five Jordan Marshmellow
+	club six Jordan Marshmellow
+Bet: 0
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 2
+
++++++++++++++++++++++++++++
+Unshuffled Deck
++++++++++++++++++++++++++++
+heart two unshuffled
+heart three unshuffled
+heart four unshuffled
+heart five unshuffled
+heart six unshuffled
+heart seven unshuffled
+heart eight unshuffled
+heart nine unshuffled
+heart ten unshuffled
+heart jack unshuffled
+heart queen unshuffled
+heart king unshuffled
+heart ace unshuffled
+club two unshuffled
+club three unshuffled
+club four unshuffled
+club five unshuffled
+club six unshuffled
+club seven unshuffled
+club eight unshuffled
+club nine unshuffled
+club ten unshuffled
+club jack unshuffled
+club queen unshuffled
+club king unshuffled
+club ace unshuffled
+diamond two unshuffled
+diamond three unshuffled
+diamond four unshuffled
+diamond five unshuffled
+diamond six unshuffled
+diamond seven unshuffled
+diamond eight unshuffled
+diamond nine unshuffled
+diamond ten unshuffled
+diamond jack unshuffled
+diamond queen unshuffled
+diamond king unshuffled
+diamond ace unshuffled
+spade two unshuffled
+spade three unshuffled
+spade four unshuffled
+spade five unshuffled
+spade six unshuffled
+spade seven unshuffled
+spade eight unshuffled
+spade nine unshuffled
+spade ten unshuffled
+spade jack unshuffled
+spade queen unshuffled
+spade king unshuffled
+spade ace unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 3
+
++++++++++++++++++++++++++++
+Shuffled Deck
++++++++++++++++++++++++++++
+diamond two shuffled
+heart queen shuffled
+heart six shuffled
+club queen shuffled
+heart king shuffled
+heart three shuffled
+club two shuffled
+club five shuffled
+spade seven shuffled
+diamond three shuffled
+club nine shuffled
+spade five shuffled
+heart seven shuffled
+heart nine shuffled
+club six shuffled
+spade king shuffled
+spade eight shuffled
+club eight shuffled
+heart ace shuffled
+spade jack shuffled
+diamond five shuffled
+spade three shuffled
+heart four shuffled
+diamond four shuffled
+diamond queen shuffled
+spade ace shuffled
+diamond king shuffled
+club ace shuffled
+spade nine shuffled
+club seven shuffled
+spade two shuffled
+heart jack shuffled
+heart two shuffled
+diamond nine shuffled
+club king shuffled
+spade four shuffled
+spade ten shuffled
+diamond eight shuffled
+spade six shuffled
+diamond seven shuffled
+heart five shuffled
+diamond six shuffled
+club ten shuffled
+heart eight shuffled
+club four shuffled
+club three shuffled
+diamond ten shuffled
+diamond jack shuffled
+spade queen shuffled
+heart ten shuffled
+diamond ace shuffled
+club jack shuffled
+
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 4
+
++++++++++++++++++++++++++++
+Stock Deck
++++++++++++++++++++++++++++
+
+[discard]spade king shuffled
+
+[stock]spade eight shuffled
+[stock]club eight shuffled
+[stock]heart ace shuffled
+[stock]spade jack shuffled
+[stock]diamond five shuffled
+[stock]spade three shuffled
+[stock]heart four shuffled
+[stock]diamond four shuffled
+[stock]diamond queen shuffled
+[stock]spade ace shuffled
+[stock]diamond king shuffled
+[stock]club ace shuffled
+[stock]spade nine shuffled
+[stock]club seven shuffled
+[stock]spade two shuffled
+[stock]heart jack shuffled
+[stock]heart two shuffled
+[stock]diamond nine shuffled
+[stock]club king shuffled
+[stock]spade four shuffled
+[stock]spade ten shuffled
+[stock]diamond eight shuffled
+[stock]spade six shuffled
+[stock]diamond seven shuffled
+[stock]heart five shuffled
+[stock]diamond six shuffled
+[stock]club ten shuffled
+[stock]heart eight shuffled
+[stock]club four shuffled
+[stock]club three shuffled
+[stock]diamond ten shuffled
+[stock]diamond jack shuffled
+[stock]spade queen shuffled
+[stock]heart ten shuffled
+[stock]diamond ace shuffled
+[stock]club jack shuffled
+
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 6
+
+[Testing '<' overloaded operator]
+It's true that: heart two unshuffled < club nine unshuffled
+
+[Testing '>' overloaded operator]
+It's false that: heart two unshuffled > club nine unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 6
+
+[Testing '<' overloaded operator]
+It's true that: diamond ten unshuffled < spade jack unshuffled
+
+[Testing '>' overloaded operator]
+It's false that: diamond ten unshuffled > spade jack unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 6
+
+[Testing '<' overloaded operator]
+It's false that: diamond king unshuffled < spade seven unshuffled
+
+[Testing '>' overloaded operator]
+It's true that: diamond king unshuffled > spade seven unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 6
+
+[Testing '<' overloaded operator]
+It's true that: heart six unshuffled < spade jack unshuffled
+
+[Testing '>' overloaded operator]
+It's false that: heart six unshuffled > spade jack unshuffled
+
+1. Reshuffle and/or Deal Cards
+2. Print UNSHUFFLED Deck
+3. Print SHUFFLED Deck
+4. Print Stock Deck and Discard Pile
+5. Print Player Info
+6. Test Other Functions
+7. Quit
+Choose a option from the menu above: 7
+
+Thanks.
+
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project8mitchellreyes@ubuntu:~/Desktop/cs202/project8$ exit
+Script done on Wed 01 Apr 2015 12:37:37 AM PDT

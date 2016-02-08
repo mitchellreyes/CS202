@@ -1,0 +1,16 @@
+Script started on Mon 26 Jan 2015 05:02:04 PM PST
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202mitchellreyes@ubuntu:~/Desktop/cs202$ g++ project1.cpp -o project1
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202mitchellreyes@ubuntu:~/Desktop/cs202$ ./project1
+Enter a desired filename: output
+bar bell orange 
+bell bell 7 
+lemon cherry cherry 
+bar bar bar 
+bell orange 7 
+7 7 7 
+lemon bell lemon 
+bar bar bell 
+cherry bell bar 
+bar 7 orange 
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202mitchellreyes@ubuntu:~/Desktop/cs202$ exit
+Script done on Mon 26 Jan 2015 05:02:31 PM PST

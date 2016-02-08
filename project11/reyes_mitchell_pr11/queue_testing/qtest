@@ -1,0 +1,89 @@
+Script started on Wed 22 Apr 2015 07:52:40 PM PDT
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project11/queue_testingmitchellreyes@ubuntu:~/Desktop/cs202/project11/queue_testing$ make
+make: Nothing to be done for `all'.
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project11/queue_testingmitchellreyes@ubuntu:~/Desktop/cs202/project11/queue_testing$ ./queuetest 
+***Checking Empty and Full when Stack is Empty
+	This queue is empty and NOT full
+	Passes 2 out of 2 tests
+***Enqueuing data into the queue
+	[0] 1 2 3 4 5 6 7 8 9 
+
+//the queue is now full
+
+***Testing the assignment operator
+[original queue]
+[0] 1 2 3 4 5 6 7 8 9 
+
+[assigned queue]
+[0] 1 2 3 4 5 6 7 8 9 
+
+Both queues should be the same
+[original queue]
+[0] 
+
+[assigned queue]
+[0] 
+
+Both queues should still be the same
+
+	Passed both tests
+***Testing the compare operator
+[First queue]
+	[2] 3 4 5 6 7 8 9 10 11 
+
+[Second queue]
+	[12] 13 14 15 16 17 18 19 20 21 
+
+the 2 queues are not the same.
+[First queue]
+	[1] 1 1 1 1 1 1 1 1 1 
+
+[Second queue]
+	[1] 1 1 1 1 1 1 1 1 1 
+
+the 2 queues are the same.
+***Dequeuing values until first stack is empty
+[1] 1 1 1 1 1 1 1 1 1 
+
+*dequeing*
+dequeue value: 1
+*dequeing*
+dequeue value: 1
+*dequeing*
+dequeue value: 1
+*dequeing*
+dequeue value: 1
+*dequeing*
+dequeue value: 1
+*dequeing*
+dequeue value: 1
+*dequeing*
+dequeue value: 1
+*dequeing*
+dequeue value: 1
+*dequeing*
+dequeue value: 1
+*dequeing*
+dequeue value: 1
+queue is now empty
+
+***Testing dequeue when its empty
+	cannot dequeue because it is empty
+***Enqueuing more values on the queue
+[32] 33 34 35 36 37 38 39 40 41 
+
+***Trying to enqueue on a full queue
+	The queue is full
+***Clearing queue
+The queue is now cleared
+***Testing copy constructor
+[Original Queue]: 
+	[69] 70 71 72 73 74 75 76 77 78 
+
+[Copied Queue]: 
+	[69] 70 71 72 73 74 75 76 77 78 
+
+
+Both Queues should be the same
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project11/queue_testingmitchellreyes@ubuntu:~/Desktop/cs202/project11/queue_testing$ exit
+Script done on Wed 22 Apr 2015 07:52:53 PM PDT

@@ -1,0 +1,33 @@
+#include <cstdlib>
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+struct studentData{
+	char first[20];
+	char last[20];
+	int age;
+	float gpa;
+};
+
+void readFromFile(ifstream &fin, studentData students[10]);
+
+int main(){
+	studentData students [10];
+	ifstream fin ("students");
+	if(fin.good()){
+		readFromFile(fin, students);
+	}else{
+		cout << "Error: Unable to read file."
+	}
+}
+
+void readFromFile(ifstream &fin, studentData students[10]){
+	for(int i = 0; i < 10; i ++){
+		fin >> students[i].first;
+		fin >> students[i].last;
+		fin >> students[i].age;
+		fin >> students[i].gpa;
+	}
+}

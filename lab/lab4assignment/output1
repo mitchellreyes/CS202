@@ -1,0 +1,8 @@
+Script started on Thu 12 Feb 2015 01:55:19 PM PST
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab4assignmentmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab4assignment$ g++ lab2.cpp -o lab2
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab4assignmentmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab4assignment$ ./lab2
+Highest Grade: Michael Gallagher 23 98.36
+Lowest Grade: Josephine Lacy 24 54.12
+Class average: 83.308
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab4assignmentmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab4assignment$ exit
+Script done on Thu 12 Feb 2015 01:55:35 PM PST

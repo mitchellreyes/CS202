@@ -1,0 +1,17 @@
+Script started on Tue 24 Mar 2015 03:59:05 PM PDT
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project7mitchellreyes@ubuntu:~/Desktop/cs202/project7$ make
+make: Nothing to be done for `all'.
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project7mitchellreyes@ubuntu:~/Desktop/cs202/project7$ ./project7
+zero: 0 0 0
+basic: 5 10 25
+zero and basic are different
+
+zero after assignment: 5 10 25
+basic2 using copy constructor: 5 10 25
+sum = zero + basic: 10 20 100
+triangle 1: 1 2 1
+triangle 2: 3 4 6
+triangle 3: 5 6 15
+triangle 4: 7 8 28
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project7mitchellreyes@ubuntu:~/Desktop/cs202/project7$ exit
+Script done on Tue 24 Mar 2015 03:59:16 PM PDT

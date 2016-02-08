@@ -1,0 +1,77 @@
+Script started on Tue 03 Mar 2015 06:10:02 PM PST
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project5mitchellreyes@ubuntu:~/Desktop/cs202/project5$ make
+make: Nothing to be done for `all'.
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project5mitchellreyes@ubuntu:~/Desktop/cs202/project5$ ./project5
+What file needs to be inputted?: symbols
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Quit
+Choose a option from the menu above: 1
+
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Quit
+Choose a option from the menu above: 2
+
+
+bar (6) (1)
+bar (6) (1)
+bell (5) (1)
+cherry (1) (1)
+bar (6) (1)
+bell (5) (1)
+lemon (0) (0)
+orange (0) (0)
+lemon (0) (0)
+lemon (0) (0)
+
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Quit
+Choose a option from the menu above: 1
+
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Quit
+Choose a option from the menu above: 2
+
+
+bell (5) (1)
+bar (6) (1)
+lemon (0) (0)
+bar (6) (1)
+bar (6) (1)
+cherry (1) (1)
+bar (6) (1)
+bar (6) (1)
+cherry (1) (1)
+cherry (1) (1)
+
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Quit
+Choose a option from the menu above: 3
+
+Which reel do you want? (1-10): 8
+bar (6) (1)
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Quit
+Choose a option from the menu above: 4
+
+Thanks.
+
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project5mitchellreyes@ubuntu:~/Desktop/cs202/project5$ exit
+Script done on Tue 03 Mar 2015 06:10:30 PM PST

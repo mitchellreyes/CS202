@@ -1,0 +1,27 @@
+Script started on Wed 18 Feb 2015 04:41:16 AM PST
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ exit./lab5g++ lab5.cpp functions.cpp --o lab5[A]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ [C[C[C[C-c functions.cpp -o func[4P.o
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ g++ -c functions.cpp -o funcc.o[A]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./lab5g++ lab5.cpp functions.cpp --o lab5
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ ./lab5
+Enter word 1: apple
+Enter word 2: orange
+Copy string 1 into new array: apple
+Copy string 2 into new array: orange
+String concat: appleorange
+String length of string 1: 5
+String length of string 2: 6
+String compare: does not match
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ ./lab5g++ lab5.cpp functions.cpp --o lab5[A]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ [C[C[C[C-c functions.cpp -o func[4P.o
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ g++ -c functions.cpp -o funcc.o[A]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ ./lab5[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ lab5.cpp functions.cpp --o lab5
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ ./lab5
+Enter word 1: dog
+Enter word 2: dog
+Copy string 1 into new array: dog
+Copy string 2 into new array: dog
+String concat: dogdog
+String length of string 1: 3
+String length of string 2: 3
+String compare: Matching strings!
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab5assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab5assign$ exit
+Script done on Wed 18 Feb 2015 04:41:48 AM PST

@@ -1,0 +1,10 @@
+Script started on Fri 27 Mar 2015 06:04:24 PM PDT
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab9assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab9assign$ g++ lav[Kb9.cpp -o lab9
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab9assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab9assign$ ./lab9 hello hello
+Invalid number of arguments
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab9assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab9assign$ ./lab9 hello [K
+Could not open file
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab9assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab9assign$ ./lab9 file
+The sun came out, and the clouds cleared up, because everything worked correctly! 
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/lab/lab9assignmitchellreyes@ubuntu:~/Desktop/cs202/lab/lab9assign$ exit
+Script done on Fri 27 Mar 2015 06:05:28 PM PDT

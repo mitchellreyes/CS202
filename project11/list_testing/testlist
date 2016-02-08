@@ -1,0 +1,131 @@
+Script started on Wed 22 Apr 2015 07:52:04 PM PDT
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project11/list_testingmitchellreyes@ubuntu:~/Desktop/cs202/project11/list_testing$ make
+g++ -o listtest listnode_main.cpp
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project11/list_testingmitchellreyes@ubuntu:~/Desktop/cs202/project11/list_testing$ ./listtest 
+[Testing empty and full]
+	'cout << list'[empty]
+
+	The list is empty...
+	The list is also NOT full...
+[Testing insert operator]: 
+	->Before: [empty]
+
+->After: [head] c
+d
+e
+f
+g
+h
+i
+j
+
+[Testing assignment operator]: 
+[First List]: [head] c
+d
+e
+f
+g
+h
+i
+j
+
+[Assigned List]: [head] c
+d
+e
+f
+g
+h
+i
+j
+
+	Should be the same.
+[First List]: [empty]
+
+[Assigned List]: [empty]
+
+	Should still be the same.
+[testing my gotoBeginning and gotoEnd]: 
+*going to the end*
+the cursor is now at the end of the list
+--If my gotoEnd worked, I cant gotoNext
+	Yup, my gotoEnd function worked.
+***Put the cursor to the beginning of the list
+--Now my gotoNext function should work
+	Yup, gotoBeginning worked.
+[Testing more insertion operators]: 
+[head] a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+z
+
+***inserted 'z'
+[Testing remove until empty]: 
+removed: 1 elements
+removed: 2 elements
+removed: 3 elements
+removed: 4 elements
+removed: 5 elements
+removed: 6 elements
+removed: 7 elements
+removed: 8 elements
+removed: 9 elements
+removed: 10 elements
+removed: 11 elements
+removed: 12 elements
+removed: 13 elements
+**removed until empty
+see: [empty]
+
+[Testing copy constructor and inserting more values]
+[original][head] a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+
+[copied][head] a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+
+should be the same
+[testing gotoPrior]: 
+successfully moved to prior
+	clearing the list...
+[testing gotoPrior now]: 
+cannot go to prior because its empty
+[Testing one element print]: 
+[head][cursor] a
+
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project11/list_testingmitchellreyes@ubuntu:~/Desktop/cs202/project11/list_testing$ exit
+Script done on Wed 22 Apr 2015 07:52:19 PM PDT

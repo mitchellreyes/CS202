@@ -1,0 +1,89 @@
+Script started on Tue 10 Feb 2015 11:20:05 AM PST
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project2mitchellreyes@ubuntu:~/Desktop/cs202/project2$ g++ project2.cpp -o project2
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project2mitchellreyes@ubuntu:~/Desktop/cs202/project2$ ./project2
+================================================
+//  1. Configure or Reconfigure Slot Machine  //
+//  2. Read in an existing configuration      //
+//  3. View Configuration                     //
+//  4. Pick reel number                       //
+//  5. Get a Payline                          //
+//  6. Quit                                   //
+================================================
+Please enter a number from the choices above: 1
+
+Enter a desired output filename: output
+
+================================================
+//  1. Configure or Reconfigure Slot Machine  //
+//  2. Read in an existing configuration      //
+//  3. View Configuration                     //
+//  4. Pick reel number                       //
+//  5. Get a Payline                          //
+//  6. Quit                                   //
+================================================
+Please enter a number from the choices above: 2
+Enter File name: output
+================================================
+//  1. Configure or Reconfigure Slot Machine  //
+//  2. Read in an existing configuration      //
+//  3. View Configuration                     //
+//  4. Pick reel number                       //
+//  5. Get a Payline                          //
+//  6. Quit                                   //
+================================================
+Please enter a number from the choices above: 3
+
+orange (0)(0) cherry (1)(1) bar (6)(1) 
+bar (6)(1) bar (6)(1) bar (6)(1) 
+cherry (1)(1) bar (6)(1) bar (6)(1) 
+orange (0)(0) 7 (10)(1) cherry (1)(1) 
+orange (0)(0) cherry (1)(1) cherry (1)(1) 
+lemon (0)(0) 7 (10)(1) bell (5)(1) 
+lemon (0)(0) cherry (1)(1) orange (0)(0) 
+bell (5)(1) lemon (0)(0) orange (0)(0) 
+bar (6)(1) lemon (0)(0) 7 (10)(1) 
+7 (10)(1) cherry (1)(1) orange (0)(0) 
+
+================================================
+//  1. Configure or Reconfigure Slot Machine  //
+//  2. Read in an existing configuration      //
+//  3. View Configuration                     //
+//  4. Pick reel number                       //
+//  5. Get a Payline                          //
+//  6. Quit                                   //
+================================================
+Please enter a number from the choices above: 4
+Choose a which row (1-10) to stop on: 4
+Choose a stop (1-3) to stop on: 7
+**Error: Second number has to be (1-3)
+
+Choose a which row (1-10) to stop on: 4
+Choose a stop (1-3) to stop on: 2
+
+7 (10)(1) 
+
+================================================
+//  1. Configure or Reconfigure Slot Machine  //
+//  2. Read in an existing configuration      //
+//  3. View Configuration                     //
+//  4. Pick reel number                       //
+//  5. Get a Payline                          //
+//  6. Quit                                   //
+================================================
+Please enter a number from the choices above: 5
+
+7 (10)(1) bar (6)(1) orange (0)(0) 
+
+================================================
+//  1. Configure or Reconfigure Slot Machine  //
+//  2. Read in an existing configuration      //
+//  3. View Configuration                     //
+//  4. Pick reel number                       //
+//  5. Get a Payline                          //
+//  6. Quit                                   //
+================================================
+Please enter a number from the choices above: 6
+Thanks for playing!
+
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project2mitchellreyes@ubuntu:~/Desktop/cs202/project2$ exit
+Script done on Tue 10 Feb 2015 11:21:03 AM PST

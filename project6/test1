@@ -1,0 +1,70 @@
+Script started on Tue 10 Mar 2015 05:39:43 PM PDT
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project6mitchellreyes@ubuntu:~/Desktop/cs202/project6$ make
+g++ -c string.cpp
+g++ -c class.cpp
+g++ -o project6 main.cpp string.o class.o
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project6mitchellreyes@ubuntu:~/Desktop/cs202/project6$ ./project1[K6
+What file needs to be read?: symbols
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Get a payline
+5. Quit
+Choose a option from the menu above: 1` 
+
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Get a payline
+5. Quit
+Choose a option from the menu above: 2
+
+
+bar 6 1  cherry 1 1  cherry 1 1  
+bell 5 1  cherry 1 1  cherry 1 1  
+bar 6 1  lemon 0 0  lemon 0 0  
+cherry 1 1  bar 6 1  bar 6 1  
+orange 0 0  bar 6 1  bell 5 1  
+lemon 0 0  bell 5 1  lemon 0 0  
+bell 5 1  bell 5 1  orange 0 0  
+lemon 0 0  cherry 1 1  bell 5 1  
+bar 6 1  lemon 0 0  cherry 1 1  
+cherry 1 1  bar 6 1  lemon 0 0  
+
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Get a payline
+5. Quit
+Choose a option from the menu above: 3
+
+Which row (1-3): 1
+Which reel slot (1-10): 1
+
+bar 6 1  
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Get a payline
+5. Quit
+Choose a option from the menu above: 4
+
+
+bell 5 1  bar 6 1  lemon 0 0  
+
+
+1. Reconfigure/Configure slots
+2. Print configuration
+3. Choose a reel and stop
+4. Get a payline
+5. Quit
+Choose a option from the menu above: 5
+
+Thanks.
+
+]0;mitchellreyes@ubuntu: ~/Desktop/cs202/project6mitchellreyes@ubuntu:~/Desktop/cs202/project6$ exit
+Script done on Tue 10 Mar 2015 05:40:17 PM PDT

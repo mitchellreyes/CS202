@@ -1,0 +1,83 @@
+#include "string.h"
+
+int main(){
+	char*input = new char[50];
+	cout << "*****************************************" << endl;
+	cout << "Testing the String(int = 10) constructor: " << endl;
+	cout << "*****************************************" << endl;
+	cout << "Testing String(): " << endl;
+	String test;
+	//cout << test << endl << endl;
+	cout << "Testing String(0): " << endl;
+	String test3(0);
+	cout << endl;
+	cout << "********************************" << endl;
+	cout << "Testing the istream(>>) operator: " << endl;
+	cout << "********************************" << endl;
+	cout << "Enter a string: ";
+	cin >> test;
+	cout << endl;
+	cout << "*******************************" << endl;
+	cout << "Testing the copy constructor: " << endl;
+	cout << "*******************************" << endl;
+	String test4(test);
+	cout << test4;
+	cout << endl;
+	cout << "*******************************" << endl;
+	cout << "Testing the getLength function: " << endl;
+	cout << "*******************************" << endl;
+	int i = test4.getLength();
+	cout << "Length of your entered word: " << i << endl << endl;
+	cout << "***************************************" << endl;
+	cout << "Testing the empty() & clear() function: " << endl;
+	cout << "***************************************" << endl;
+	test4.clear();
+	if(test4.empty()){
+		cout << "It is now empty" << endl;
+	}else{
+		cout << "Error in this function" << endl;
+	}
+	cout << endl;
+	cout << "********************************************" << endl;
+	cout << "Testing the String(const char*) constructor: " << endl;
+	cout << "********************************************" << endl;
+	cout << "Running String test2(''test''): " << endl;
+	String test2("test");
+	cout << test2 << endl << endl;
+	cout << "***********************" << endl;
+	cout << "Testing the = operator: " << endl;
+	cout << "***********************" << endl;
+	cout << "When it can't fit the desired string being copied: " << endl;
+	String test5("hi");
+	String test6("hello");
+	test5 = test6;
+	cout << test5 << endl << endl;
+	cout << "When the desired copy string is empty: " << endl;
+	test6.clear();
+	test5 = test6;
+	cout << test5 << endl << endl;
+	cout << "***********************" << endl;
+	cout << "Testing the [] operator: " << endl;
+	cout << "***********************" << endl;
+	cout << "When you ask for something out of bounds: " << endl;
+	String test7("world");
+	cout << test7[8] << endl << endl;
+	cout << "When you ask for something in bounds of the word: " << test7 << endl;
+	cout << test7[2] << endl << endl;
+	cout << "***********************" << endl;
+	cout << "Testing the + operator: " << endl;
+	cout << "***********************" << endl;
+	char*tmp1 = new char[50];
+	char *tmp2 = new char[50];
+	cout << "Input a string: ";
+	cin >> tmp1;
+	cout << "Input another string: ";
+	cin >> tmp2;
+	String test8(tmp1);
+	String test9(tmp2);	
+	test8+test9;
+	test8.clear();
+	cout << "When the first one is emptied already: " << endl;
+	test8+test9;
+	return 0;
+}
